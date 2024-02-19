@@ -1,4 +1,4 @@
-El archivo `clean_data.py` implementa el algoritmo 'fingerprint' para collisión
+El archivo `clean_data.py` implementa el algoritmo 'ngrams' para collisión
 de textos, el cual es utilizado para unificar cadenas de texto que representan
 la misma entidad.
 
