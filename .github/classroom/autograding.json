@@ -1,9 +1,9 @@
 {
-  "tests": [
+  "test": [
     {
       "name": "Test",
-      "setup": "pip insntall pyarrow pandas",
-      "run": "python3 tests.py",
+      "setup": "pip install pyarrow pandas",
+      "run": "python3 test.py",
       "input": "",
       "output": "",
       "comparison": "exact",
