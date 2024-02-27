@@ -49,8 +49,7 @@ def generate_cleaned_column(df):
     """Crea la columna 'cleaned' en el DataFrame"""
 
     #
-    # Este código es identico al anteior
-    #
+    # Este código es identico al anterior
     df = df.copy()
     df = df.sort_values(by=["key", "text"], ascending=[True, True])
     keys = df.drop_duplicates(subset="key", keep="first")
