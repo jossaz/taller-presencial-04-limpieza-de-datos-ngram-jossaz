@@ -1,5 +1,5 @@
 {
-  "test": [
+  "tests": [
     {
       "name": "Test",
       "setup": "pip install pyarrow pandas",
