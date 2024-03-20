@@ -79,12 +79,3 @@ def main(input_file, output_file, n=2):
     df = load_data(input_file)
     df = create_key(df, n)
     df = generate_cleaned_column(df)
-    df.to_csv("test.csv", index=False)
-    save_data(df, output_file)
-
-
-if __name__ == "__main__":
-    main(
-        input_file="input.txt",
-        output_file="output.txt",
-    )
